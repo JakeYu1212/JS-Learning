@@ -1,0 +1,10 @@
+{
+    "version": "0.1.0",
+    "command": "Safari",
+    "osx": {
+        "command": "/Applications/Safari.app/Contents/MacOS/Safari"
+    },
+    "args": [
+        "${file}"
+    ]
+}
