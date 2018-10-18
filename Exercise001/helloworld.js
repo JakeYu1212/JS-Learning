@@ -11,6 +11,7 @@ function createIncrementor(start) {
 
 var inc = createIncrementor(5);
 
+
 alert(inc()) // 5
 alert(inc()) // 6
 alert(inc()) // 7

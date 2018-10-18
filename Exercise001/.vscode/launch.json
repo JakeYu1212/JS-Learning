@@ -6,6 +6,21 @@
     "configurations": [
         
         {
+           
+            "name": "谷歌浏览器", //运行html文件，用谷歌浏览器打开
+            
+            "type": "chrome",
+            
+            "request": "launch",
+            
+            "url": "${file}",
+            
+            "sourceMaps": true,
+            
+            "webRoot": "${workspaceRoot}"
+            
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
