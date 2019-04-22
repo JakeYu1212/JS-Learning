@@ -5,9 +5,17 @@
     "tasks": [
         {
             "type": "typescript",
-            "tsconfig": "JS Exercise/tsconfig.json",
+            "tsconfig": "Exercise001/tsconfig.json",
             "problemMatcher": [
                 "$tsc"
+            ]
+        },
+        {
+            "type": "typescript",
+            "tsconfig": "Exercise001/tsconfig.json",
+            "option": "watch",
+            "problemMatcher": [
+                "$tsc-watch"
             ]
         }
     ]
